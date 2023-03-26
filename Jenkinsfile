@@ -5,8 +5,8 @@ pipeline {
         stage('Deploy') {
             steps {
                 git 'https://github.com/pradeep98r/nodejs_lst.git'
-                sh 'cd node-app && npm install'
-                sh 'cd node-app && node index.js'
+                sh 'cd nodejs_lst && npm install'
+                sh 'cd nodejs_lst && node index.js'
             }
         }
     }
