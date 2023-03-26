@@ -1,2 +1,2 @@
 #!/bin/bash
-cd nodejs_lst && node index.js
+ node index.js
