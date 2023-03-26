@@ -1,2 +1,2 @@
 #!/bin/bash
-node index.js
+cd ./nodejs_lst && node index.js
